@@ -1,0 +1,669 @@
+@charset "UTF-8";
+/*包裹整个内容的大盒子 开始*/
+.allContent {
+    background: url("../images/bodybg_31af752.jpg") no-repeat top center;
+}
+/*包裹整个内容的大盒子 结束*/
+
+/*赛季说明玩法说明 开始*/
+.explain {
+    margin-top: 660px;
+    height: 410px;
+    margin-bottom: 10px;
+}
+
+.explain .explainLeft {
+    width: 360px;
+    height: 388px;
+    background-color: #262C30;
+    padding: 22px 20px 0 20px;
+    position: relative;
+}
+
+.explain .explainLeft p {
+    line-height: 22px;
+    text-indent: 2em;
+    color: #909193;
+}
+
+.explain .explainLeft .leftLine {
+    width: 360px;
+    height: 1px;
+    background-color: #484340
+}
+
+.explain .explainLeft .explainMore {
+    position: absolute;
+    right: 20px;
+    top: 34px;
+}
+
+.explain .explainLeft .explainMore:hover {
+    color: #fff;
+}
+
+.explain .explainLeft .explainContent {
+    height: 153px;
+    padding-top: 20px;
+    border-bottom: 1px dashed #615F6A;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.explain .explainLeft .explainContent .contentSpan {
+    display: block;
+    width: 102px;
+    height: 26px;
+    background: url("../images/linkbtn1_139888e.png");
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
+}
+
+.explain .explainLeft .explainContent .contentSpan:hover {
+    background-image: url("../images/linkbtn1h_5c35cfe.png");
+}
+
+.explain .explainLeft .explainUl {
+    height: 96px;
+    width: 360px;
+}
+
+.explain .explainLeft .explainUl li {
+    width: 96px;
+    height: 96px;
+    background: url("../images/v-btn_eef5e2b.png");
+    text-align: center;
+    float: left;
+    margin-right: 35px;
+}
+
+.explain .explainLeft .explainUl li:hover {
+    background: url("../images/v-btn-hover_1facd77.png");
+}
+
+.explain .explainLeft .explainUl .lastExplainLi {
+    margin-right: 0;
+}
+
+.explain .explainLeft .explainUl li a {
+    display: block;
+    width: 96px;
+    height: 79px;
+    padding-top: 17px;
+}
+
+.explain .explainLeft .explainUl li a p {
+    text-indent: 0;
+    font-size: 17px;
+    color: #22212B;
+}
+
+.explain .explainLeft .explainUl li a span {
+    font-size: 14px;
+    color: #806466;
+}
+
+.explain .explainRight {
+    width: 730px;
+    height: 388px;
+    background-color: #262C30;
+    padding: 22px 20px 0 20px;
+}
+
+.explain .explainRight .rightLine {
+    width: 730px;
+    height: 1px;
+    background-color: #484340;
+}
+
+.explain .explainRight .playContent {
+    width: 730px;
+    height: 232px;
+    border-bottom: 1px dashed #615F6A;
+    padding-top: 20px;
+    margin-bottom: 23px;
+}
+
+.explain .explainRight .playContent h6 {
+    text-indent: 2em;
+    color: #909193;
+    margin-bottom: 45px;
+}
+
+.explain .explainRight .playContent ul li {
+    width: 122px;
+    text-align: center;
+    margin-left: 92px;
+    float: left;
+}
+
+.explain .explainRight .playContent .playLi {
+    margin-left: 88px;
+}
+
+.explain .explainRight .playContent ul li img {
+    border: 3px solid #3D3C44;
+    margin-bottom: 12px;
+}
+
+.explain .explainRight .playContent ul li p {
+    font-size: 14px;
+    color: #98989A;
+}
+
+.explain .explainRight .playSee li {
+    width: 120px;
+    height: 26px;
+    background: url("../images/linkbtn4_1443fea.png") no-repeat;
+    margin-left: 94px;
+    float: left;
+}
+
+.explain .explainRight .playSee li:hover {
+    background-image: url("../images/linkbtn4h_33f98bd.png");
+}
+
+.explain .explainRight .playSee li a {
+    display: block;
+    width: 120px;
+    height: 26px;
+}
+
+.explain .explainRight .playSee .playSeeLi {
+    margin-left:88px;
+}
+
+/*赛季说明玩法说明 结束*/
+
+
+/*奖励栏 开始*/
+.prize {
+    height: 280px;
+    margin-bottom: 10px;
+}
+
+.prize .prize-left {
+    width: 360px;
+    height: 258px;
+    background-color: #262C30;
+    padding: 22px 20px 0 20px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #d5be8a;
+    line-height: 33px;
+}
+
+.little-span {
+    display: block;
+    width: 79px;
+    height: 2px;
+    background-color: #D5BE8A;
+}
+
+.prize .prize-left .left-content {
+    height: 154px;
+    border-top: 1px solid #484340;
+    border-bottom: 1px dashed #615F6A;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.prize .prize-left .left-content p {
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.prize .prize-left .left-content ul li {
+    float: left;
+    width: 72px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.prize .prize-left .left-content ul .left-lastli {
+    margin-right: 0;
+}
+
+.prize .prize-left .left-content ul li p {
+    margin-top: 5px;
+}
+
+.prize .prize-left .left-content ul li img {
+    border: 3px solid #3D3C44;
+}
+
+.prize .prize-left .left-bottom ul li {
+    width: 70px;
+    height: 20px;
+    background-color: #A6A197;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 26px;
+    float: left;
+}
+
+.prize .prize-left .left-bottom ul li:hover {
+    background-color: #C6A562;
+}
+
+.prize .prize-left .left-bottom ul .bottomli {
+    margin-right: 0;
+}
+
+.prize .prize-left .left-bottom ul li a {
+    color: #262632;
+    line-height: 20px;
+}
+
+.prize .prize-right {
+    width: 730px;
+    height: 258px;
+    background-color: #262C30;
+    padding: 22px 20px 0 20px;
+    position: relative;
+}
+
+.prize .prize-right .more {
+    position: absolute;
+    top: 33px;
+    right: 20px;
+}
+
+.prize .prize-right .more:hover {
+    color: #fff;
+}
+
+.prize .prize-right .line {
+    width: 730px;
+    height: 1px;
+    background-color: #484340;
+    margin-bottom: 20px;
+}
+
+.prize .prize-right .right-content .left-box {
+    width: 250px;
+    height: 120px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin-top: 4px;
+}
+
+.prize .prize-right .right-content .left-box ul {
+    width: 500px;
+    position: absolute;
+}
+
+.prize .prize-right .right-content .left-box li a {
+    display: block;
+    width: 250px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.prize .prize-right .right-content .left-box span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url("../images/002.png") no-repeat;
+    position: absolute;
+    left: 8px;
+    bottom: 10px;
+}
+
+.prize .prize-right .right-content .left-box .span01 {
+    background-image: url("../images/003.png");
+}
+
+.prize .prize-right .right-content .left-box .span02 {
+    left: 28px;
+}
+
+.prize .prize-right .right-content .right-box ul li {
+    width: 450px;
+    height: 32px;
+    float: right;
+}
+.prize .prize-right .right-content .right-box ul li a {
+    display: block;
+    width: 375px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    color: #989898;
+}
+
+.prize .prize-right .right-content .right-box ul li a:hover {
+    color: #E8E8EA;
+}
+
+.prize .prize-right .right-content .right-box ul li .content-date {
+    display: block;
+    width: 40px;
+    height: 32px;
+    line-height: 32px;
+    float: right;
+    font-size: 14px;
+}
+/*奖励栏 结束*/
+
+/*征战天下 开始*/
+.world {
+    height: 498px;
+    width: 1180px;
+    background-color: #272C31;
+    padding: 22px 20px 0 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    /*left: 83px;*/
+}
+
+.world .world-line {
+    width: 1140px;
+    height: 1px;
+    background-color: #484340;
+    margin-bottom: 20px;
+}
+
+.world .world-content {
+    height: 329px;
+    width: 1084px;
+    padding-top: 10px;
+    margin-left: 27px;
+    overflow: hidden;
+    margin-bottom: 42px;
+    position: relative;
+}
+
+.world .world-content .ulAll {
+    width: 5000px;
+    height: 329px;
+    position: absolute;
+}
+
+.world .world-content .world-ul01 {
+    width: 1111px;
+    height: 329px;
+    float: left;
+}
+
+.world .world-content .world-ul01 li {
+    width: 250px;
+    height: 321px;
+    padding-top: 3px;
+    background-color: #3A3E45;
+    border-bottom: 5px solid #C6A562;
+    margin-right: 28px;
+    float: left;
+    position: relative;
+}
+
+.world .world-content .world-ul01 li a {
+    display: block;
+    width: 250px;
+    height: 321px;
+}
+
+.world .world-content .world-ul01 li img {
+    margin-bottom: 12px;
+    margin-left: 3px;
+}
+
+.world .world-content .world-ul01 li h4 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #7B7A81;
+    line-height: 36px;
+    margin: 0 11px 7px 11px;
+    border-bottom: 1px dashed #919193;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.world .world-content .world-ul01 li p {
+    margin: 0 11px 0 11px;
+    line-height: 24px;
+    color: #74747D;
+}
+
+.world .world-content .world-ul01 .world-04 {
+    margin-right: 0;
+}
+
+.world .world-content .world-ul01 .world-04 h5{
+    font-size: 28px;
+    font-weight: 700;
+    color: #D5BE8A;
+    text-align: center;
+}
+
+.world .world-content .world-ul01 .world-04 p {
+    font-size: 18px;
+    color: #9F9DA4;
+    line-height: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px dashed #919193;
+}
+
+.world .world-content .world-ul01 .world-04 .callname {
+    width: 218px;
+    height: 56px;
+    background-color: pink;
+    margin-left: 16px;
+    margin-top: 24px;
+    background: url("../images/index_z_35ffa22.png") no-repeat;
+}
+
+.world .world-content span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 20px;
+    height: 100px;
+    background-color: red;
+    display: none;
+}
+
+.world .world-ul02 {
+    margin-left: 496px;
+}
+
+.world .world-ul02 li {
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: url("../images/002.png");
+    margin: 0 8px 0 8px;
+}
+
+.world .world-ul02 li.current {
+    background: url("../images/003.png");
+}
+
+/*征战天下 结束*/
+
+/*征战截图 开始*/
+.screenshot {
+    height: 276px;
+    width: 1140px;
+    background-color: #272C31;
+    padding: 22px 20px 0 20px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.screenshot .screenshot-line {
+    width: 1140px;
+    height: 1px;
+    background-color: #484340;
+    margin-bottom: 46px;
+}
+
+.screenshot .screenshot-img {
+    width: 1078px;
+    height: 140px;
+    margin-left: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screenshot .screenshot-img .screenUl {
+    width: 4416px;
+    height: 140px;
+    position: relative;
+}
+
+.screenshot .screenshot-img ul {
+    width: 1104px;
+    height: 140px;
+    float: left;
+}
+
+.screenshot .screenshot-img ul li {
+    width: 247px;
+    height: 137px;
+    background-color: #E8E9EB;
+    padding: 3px 0 0 3px;
+    float: left;
+    margin-right: 26px;
+    position: relative;
+    overflow: hidden;
+}
+
+.screenshot .screenshot-img ul li .screenA01 {
+    position: absolute;
+    top:-131px;
+    display: block;
+    width: 244px;
+    height: 134px;
+    z-index: 5;
+
+}
+
+.screenshot .screenshot-img ul li .screenA01 span {
+    display: block;
+    width: 105px;
+    height: 31px;
+    border-top: 1px solid #E5EBD1;
+    border-bottom: 1px solid #E5EBD1;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 47px;
+    margin-left: 67px;
+    color: #fff;
+}
+
+.screenshot .screenshot-img ul li .screenSpan02 {
+    position: absolute;
+    bottom:-130px;
+    width: 244px;
+    height: 134px;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 4;
+}
+
+.screenshot .screenleft {
+    width: 15px;
+    height: 31px;
+    display: block;
+    background: url("../images/index_z_35ffa22.png") -198px -57px;
+    position: absolute;
+    top: 160px;
+}
+
+.screenshot .screenright {
+    width: 15px;
+    height: 31px;
+    display: block;
+    background: url("../images/index_z_35ffa22.png") -197px -96px;
+    position: absolute;
+    top: 160px;
+    right: 20px;
+}
+/*征战截图 结束*/
+
+/*底部 开始*/
+.footer {
+    width: 960px;
+    height: 95px;
+    /*background-color: #151712;*/
+    margin: 0 auto;
+    padding-top: 25px;
+    /*border-top: 1px solid #1F2128;*/
+}
+
+.footer .footerTop {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom:10px;
+}
+
+.footer .footerTop img {
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.footer .footerTop span.topLeft {
+    display: inline-block;
+    width: 280px;
+    height: 48px;
+    line-height: 24px;
+    float: left;
+    /*margin-left: 60px;*/
+}
+.footer .footerTop span.topRight {
+    display: inline-block;
+    width: 516px;
+    height: 48px;
+    line-height: 24px;
+    float: left;
+    position: relative;
+    top: -8px;
+    /*margin-left: 60px;*/
+}
+
+.footer .footerTop span a {
+    color: #848486;
+}
+
+.footer .footerTop .clicKSee {
+    display: block;
+    width: 142px;
+    height: 26px;
+    background-color: #610000;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+    position: absolute;
+    bottom: -2px;
+    right: 10px;
+}
+
+.footer .footerBottom {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.footer .footerBottom p {
+    line-height: 24px;
+    color: #848486;
+    margin-top: 1px;
+}
+
+.footer .footerBottom p i {
+    color: red;
+}
+/*底部 结束*/
+

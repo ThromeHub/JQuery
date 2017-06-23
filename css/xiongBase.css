@@ -1,0 +1,885 @@
+/*通用样式*/
+p, ul, ol, li, dt, dd, dl, h1, h2, h3, h4, h5, h6, div, body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 黑体;
+}
+
+em, i, strong, ins {
+    font-style: normal;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.heart {
+    width: 90%;
+}
+
+body {
+    background: #22212B;
+}
+
+.bg {
+    background: url(../img/images/bg_9b28649.png);
+}
+
+.clearfix:after {
+    content: "\2020";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix:after {
+    *zoom: 1;
+}
+
+/*顶部样式*/
+.top {
+    height: 55px;
+    background: #fff;
+}
+
+#logo {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.top-main {
+    width: 84%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.top-ul {
+    float: right;
+}
+
+.top-ul ul {
+    margin-right: 50px;
+}
+
+.top-ul li {
+    float: left;
+    background: #fff;
+    line-height: 55px;
+    margin: 0px 16px;
+    font-size: 12px;
+    color: #777;
+    font-weight: bold;
+    position: relative;
+}
+
+.top-ul li.last {
+    height: 55px;
+    overflow: hidden;
+}
+
+.top-ul #topmenu {
+    width: 12px;
+    position: relative;
+    bottom: 2px;
+}
+
+.top-bottom {
+    width: 1000px;
+    height: 400px;
+    display: none;
+}
+
+.top-main .logobig {
+    width: 980px;
+    height: 250px;
+    background: url(../img/topbig.jpg) no-repeat;
+    display: none;
+}
+
+/*头部样式*/
+.headimg{
+    width: 100%;
+    height:671px;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+.head span.head-ex{
+    position: absolute;
+    top:571px;
+    width: 100%;
+    height: 100px;
+    background:rgba(255,255,255,.1);
+    display: block;
+}
+.head .headlogo{
+    position: absolute;
+    top:220px;
+    left:160px;
+    z-index:5;
+}
+.head {
+    position: relative;
+    overflow: hidden;
+}
+
+.head object {x
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.head-top {
+    height: 575px;
+}
+
+.headtop-left {
+    position: relative;
+}
+
+.headtop-left div {
+    float: left;
+}
+
+/*苟文秀*/
+/*主页头部css*/
+.head .introduce {
+    width: 370px;
+    height: 205px;
+    position: absolute;
+    background-color: #3c3b46;
+    border: 1px solid #565561;
+    left: 165px;
+    top: 112px;
+    padding: 15px 15px;
+    display: none;
+    cursor: pointer;
+}
+
+.head .introduce p {
+    line-height: 24px;
+    font-size: 14px;
+    color: #e0e0e0;
+    font-family: "宋体";
+    font-weight: 200;
+}
+
+/*小三角的制作方法*/
+.head .introduce .introduce-jiao {
+    display: inline-block;
+    border-bottom: 10px solid #3c3b46;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -17px;
+    left: 40px;
+}
+
+/*导航条中小图标的添加*/
+.head .headtop-nav .headtop-nav-ul a .head-icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../img/index.png) no-repeat -1298px -485px;
+    display: none;
+}
+
+.head .reveal {
+    display: inline-block;
+    width: 236px;
+    height: 106px;
+    padding: 8px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #fff;
+    /*border: 1px solid red;*/
+}
+
+.head .g-weixin {
+    top: 65px;
+    right: 100px;
+    display: none;
+}
+
+.head .g-yixin {
+    display: none;
+    top: 65px;
+    right: 54px;
+}
+
+/*苟文秀*/
+
+.headtop-left div.first img {
+    margin: 30px 10px auto 70px;
+}
+
+.headtop-left div.second img {
+    margin: 15px auto 2px auto;
+}
+
+.headtop-left p {
+    font-size: 10px;
+    color: #d9c89a;
+    font-weight: bold;
+}
+
+.headtop-left input {
+    border-radius: 8px;
+    border: 0px none;
+    background: #d9c89a;
+    outline: none;
+    width: 120px;
+    line-height: 16px;
+    margin: 6px 4px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.guanzhu .first {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background: url(../img/index.png) no-repeat;
+    background-position: -1207px -482px;
+}
+
+.guanzhu .second {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background: url(../img/index.png) no-repeat;
+    background-position: -940px -482px;
+}
+
+.headtop-nav ul {
+    margin: 15px 20px;
+    height: 38px;
+    background: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    text-align: center;
+    margin: 34px 48px;
+    font-size: 12px;
+}
+
+.headtop-nav li {
+    float: left;
+    width: 116px;
+    border-right: 1px dotted #888;
+    margin: 10px 3px auto 3px;
+    color: #999;
+    font-weight: bold;
+}
+
+.headtop-nav li span.first, .headtop-nav li span.second {
+    position: relative;
+    bottom: 8px;
+}
+
+.head-bottom {
+    background: rgba(0, 0, 0, .5);
+    height: 96px;
+    width: 100%;
+}
+
+.headbottom-left {
+    margin-left: 66px;
+    position: relative;
+    float: left;
+    width: 410px;
+}
+
+.headbottom-left img {
+    width: 110px;
+    position: relative;
+    bottom: 38px;
+    z-index: 2;
+}
+
+.headbottom-left p {
+    position: absolute;
+    top: 16px;
+    left: 150px;
+    color: #aaa;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.headbottom-left span {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background: url(../img/index.png);
+    background-position: -1276px -482px;
+    position: absolute;
+    left: 120px;
+    top: 16px;
+}
+
+.headbottom-left h4 {
+    position: absolute;
+    top: 45px;
+    left: 130px;
+    color: #ddd;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.headbottom-middle {
+    float: left;
+    position: relative;
+    z-index:3;
+}
+
+.headbottom-middle span.iphonedown {
+    display: inline-block;
+    width: 190px;
+    height: 60px;
+    background: url(../img/index.png);
+    background-position: -1454px -344px;
+    margin: 20px 2px;
+}
+
+.headbottom-middle span.anroiddown {
+    display: inline-block;
+    width: 190px;
+    height: 60px;
+    background: url(../img/index.png);
+    background-position: -843px -424px;
+    margin: 20px 2px;
+}
+
+.headbottom-right {
+    float: left;
+    position: relative;
+    width: 400px;
+    height: 94px;
+}
+
+.headbottom-right .search span {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../img/index.png);
+    background-position: -1770px -457px;
+    margin: 20px auto auto 16px;
+}
+
+.headbottom-right .search em {
+    color: #bbb;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    bottom: 6px;
+    left: 3px;
+}
+
+.headbottom-right .search input.sea {
+    outline: none;
+    margin-left: 20px;
+    height: 26px;
+    width: 170px;
+    font-size: 12px;
+}
+
+.headbottom-right .search input.btn {
+    height: 26px;
+    border-radius: 2px;
+    line-height: 12px;
+    color: #eee;
+    font-weight: bold;
+    background: #bf3838;
+}
+
+.headbottom-right span.gift {
+    display: inline-block;
+    width: 121px;
+    height: 94px;
+    background: url(../img/index.png);
+    background-position: -720px -425px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+/*头部底端白线遮挡*/
+.headex {
+    width: 100%;
+    background: #22212B;
+    height: 10px;
+    position: relative;
+    bottom: 4px;
+}
+
+/*中部旋转*/
+.turn {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 908px;
+    top: 308px;
+    z-index:3;
+    background: url(../img/zhuanwhite.png);
+    cursor: pointer;
+}
+
+.sanjiao {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 945px;
+    top: 338px;
+    background: url(../img/sanjiao.png);
+    cursor: pointer;
+}
+
+/*卷轴部分*/
+.juan {
+    position: absolute;
+    left: 45px;
+    top: 110px;
+    z-index:5;
+    display: none;
+}
+
+.juanmain {
+    height: 450px;
+    width: 42px;
+    background: url(../img/juanmain.png);
+    float: left;
+    position: relative;
+}
+
+.juanright {
+    height: 450px;
+    width: 42px;
+    background: url(../img/juanright.png);
+    float: left;
+}
+
+.juanimg01, .juanimg02, .juanimg03 {
+    position: absolute;
+    top: 100px;
+    left: 42px;
+    display: none;
+}
+
+.juanimg01 {
+    display: block;
+}
+
+.juan .leftarrow, .juan .rightarrow {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    width: 42px;
+    height: 120px;
+    background: rgba(0, 0, 0, .6);
+    border-radius: 4px;
+}
+
+.juan .arrow {
+    display: none;
+}
+
+.juan span img {
+    width: 70px;
+}
+
+.juan .leftarrow {
+    left: 0px;
+}
+
+.juan .leftarrow img {
+    position: relative;
+    left: -28px;
+    top: 24px;
+}
+
+.juan .rightarrow {
+    right: 0px;
+}
+
+.juan .rightarrow img {
+    position: relative;
+    right: -8px;
+    top: 24px;
+}
+
+/*主体部分*/
+.main {
+    height: 600px;
+}
+
+/*游戏资料*/
+.recourse {
+    margin-top: 60px;
+}
+
+.recourse h3 {
+    color: #eee;
+    margin: 5px 90px;
+}
+
+.recourse-main {
+    width: 1180px;
+    height: 240px;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.recourse-main ul {
+    width: 1180px;
+    height: 240px;
+    position: relative;
+}
+
+.recourse-main > ul > li {
+    float: left;
+    overflow: hidden;
+    width: 100px;
+    position: relative;
+}
+
+.recourse-main > ul > li:nth-child(1) {
+    width: 680px;
+}
+
+.recourse-main .fork {
+    float: left;
+    width: 100px;
+    position: relative;
+}
+
+.recourse-main .fork img.real {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.imgrotateY {
+    transform: rotateY(180deg);
+}
+
+.recourse-main .fork span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/index.png);
+    position: absolute;
+    right: 35px;
+    top: 152px;
+    transition: transform 1s;
+}
+
+.recourse-main span.respan01 {
+    background-position: -1075px -485px;
+}
+
+.recourse-main span.respan02 {
+    background-position: -908px -485px;
+}
+
+.recourse-main span.respan03 {
+    background-position: -1140px -485px;
+}
+
+.recourse-main span.respan04 {
+    background-position: -1107px -485px;
+}
+
+.recourse-main span.respan05 {
+    background-position: -1010px -485px;
+}
+
+.recourse-main span.respan06 {
+    background-position: -976px -485px;
+}
+
+.recourse-main .retext {
+    float: left;
+    width: 580px;
+    height: 240px;
+    background: #2A2833;
+}
+
+.retext {
+    position: absolute;
+    z-index: 2;
+    left: 100px;
+    top: 0px;
+}
+
+.retext h3 {
+    width: 500px;
+    font-size: 16px;
+    margin: 10px 20px 4px;
+    border-bottom: 1px solid #333;
+}
+
+.retext h3 i {
+    display: inline-block;
+    height: 100%;
+    padding-bottom: 12px;
+    padding-left: 4px;
+    width: 80px;
+    border-bottom: 1px solid #eee;
+}
+
+.retext ul {
+    font-size: 10px;
+}
+
+.retext li {
+    margin: 12px 16px;
+}
+
+.retextul {
+    float: left;
+    width: 260px;
+}
+
+.retextul li {
+    position: relative;
+}
+
+.retextul li h4 {
+    font-size: 13px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 220px;
+    position: relative;
+    top: 2px;
+}
+
+.retextul li:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+.retextimg {
+    width: 220px;
+    float: right;
+}
+
+.retextimg img:nth-child(1) {
+    margin: 16px 10px 0px 10px;
+}
+
+.retextimg img:nth-child(2) {
+    margin: 10px;
+}
+
+/*游戏特色*/
+.spec {
+    width: 1180px;
+    margin: 60px auto 40px;
+    color: #eee;
+    font-weight: bold;
+}
+
+.spec h3 {
+    margin: 10px;
+}
+
+.spec-main {
+    width: 1180px;
+    height: 240px;
+}
+
+.spec-main li {
+    position: relative;
+}
+
+.spec-main span {
+    display: inline-block;
+    width: 100px;
+    height: 240px;
+    background: url(../img/index.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.spec-main span.specspan01 {
+    background-position: 0 -432px;
+}
+
+.spec-main span.specspan02 {
+    background-position: -617px 0;
+    display: none;
+}
+
+.spec-main span.specspan03 {
+    background-position: -514px 0;
+    display: none;
+}
+
+.spec-main span.specspan04 {
+    background-position: -413px 0;
+    display: none;
+}
+
+.spec-main ul li {
+    float: left;
+    width: 100px;
+    overflow: hidden;
+}
+
+.spec-main ul li:nth-child(1) {
+    width: 880px;
+}
+
+/*边栏部分*/
+
+.aside-left, .aside-right {
+    width: 65px;
+    height: 500px;
+    float: left;
+    border-radius: 8px;
+    position: absolute;
+    top: 800px;
+    z-index: 2;
+}
+
+.aside-right {
+    right: 0px;
+}
+
+.aside-left span {
+    display: inline-block;
+    width: 65px;
+    height: 500px;
+    background: url(../img/leftaside.png);
+    position: absolute;
+    left: 0px;
+}
+
+.aside-right span {
+    display: inline-block;
+    width: 65px;
+    height: 500px;
+    background: url(../img/rightaside.png);
+    position: absolute;
+    right: 0px;
+}
+
+.aside-left p {
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+
+.aside-right p {
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+
+/*//苟文秀添加底部样式*/
+
+/*苟文秀*/
+
+.colorWhite {
+    color: #fff;
+    font-weight: 700;
+}
+
+.colorGray {
+    color: #616066;
+}
+
+/*首页底部开始*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.footer .g-footer-top {
+    width: 112%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-top: 67px;
+    margin-bottom: 0px;
+    position: relative;
+    top: 0px;
+    left: -67px;
+}
+
+.g-footer-top div {
+    width: 260px;
+    height: 90px;
+    /*border: 1px solid red;*/
+
+}
+
+.g-footer-top img {
+    opacity: 0.6;
+}
+
+.g-footer-top img:hover {
+    opacity: 1;
+}
+
+.commous {
+    margin-left: 10px;
+    line-height: 26px;
+}
+
+.g-top-left {
+    margin-left: 10px;
+}
+
+.g-top-right {
+    margin-right: -56px;
+}
+
+.commous b {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/index.png) -1279px -482px;
+}
+
+.g-footer-top .g-top-center {
+    margin: 0px 55px;
+}
+
+.g-footer-top .g-top-center a {
+    margin: 10px;
+    text-decoration: none;
+    color: #616066;
+    line-height: 30px;
+}
+
+.g-footer-top .g-top-center .iconfont {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+.g-footer-top .g-top-center a:hover {
+    color: red;
+}

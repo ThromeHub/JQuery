@@ -1,0 +1,244 @@
+
+ul, li, p, body, dl, dt, dd, ol {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #98989a;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.colorwhite {
+    color: white;
+}
+
+/*������ʽ����д*/
+body {
+    background-color: #000;
+}
+
+.g-main {
+    width: 1180px;
+    margin: 0 auto;
+    height: 240px;
+}
+
+.g-main .g-main-left {
+    width: 580px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 20px;
+    /*border: 1px solid red;*/
+}
+
+.g-main .g-main-left .g-pic {
+    width: 1000%;
+    padding: 0;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.g-main .g-main-left ul li {
+    float: left;
+}
+
+.g-main .g-main-left .g-littleNav {
+    position: absolute;
+    margin-right: 10px;
+    bottom: 8px;
+    right: 0;
+    color: #fff;
+    /*background-color: red;*/
+}
+
+.g-main .g-main-left .g-littleNav li {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/*�м䲿��*/
+.g-main .g-main-center {
+    width: 380px;
+    height: 240px;
+    margin-right: 20px;
+    background: #3c3b46;
+    position: relative;
+
+}
+
+.g-main .g-main-center .g-main-nav {
+    width: 350px;
+    height: 50px;
+    padding: 0 15px;
+    margin: 0;
+    border-bottom: 1px solid #504F59;
+}
+
+.g-main .g-main-center a {
+    color: #98989a;
+}
+
+.g-main .g-main-center a:hover {
+    color: #fff;
+}
+
+.g-main .g-main-center .g-main-nav .g-main-data ul {
+    width: 380px;
+}
+
+.g-main .g-main-center .g-main-nav li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.g-main .g-main-center .g-last {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #96969C;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.g-main .g-main-center .g-last:hover {
+    background-color: #e2e2e3;
+}
+
+.g-main .g-main-center .g-main-data {
+    width: 380px;
+    height: 170px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    padding-top: 10px;
+    font-size: 14px;
+    color: #98989a;
+}
+
+.g-main .g-main-center .g-main-data .g-main-inner {
+    width: 1000%;
+    height: 170px;
+    position: relative;
+}
+
+.g-main .g-main-center .g-main-data ul {
+    width: 370px;
+    height: 170px;
+    float: left;
+    margin: 0;
+    padding: 0 15px;
+
+}
+
+.g-main .g-main-center .g-main-data ul li {
+    height: 34px;
+    position: relative;
+
+}
+
+.g-main .g-main-center .g-main-data ul li a {
+    display: inline-block;
+    width: 310px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /*position:absolute;*/
+}
+
+.g-main .g-main-center .g-main-data ul li a .g-item {
+    display: inline-block;
+    height: 34px;
+    width: 60px;
+    /*background-color: red;*/
+    position: absolute;
+    top: 0;
+    right: -36px;
+
+}
+
+/*���ұߵĲ���*/
+.g-main-right {
+    width: 180px;
+    height: 240px;
+    background: url(../img/index.png) no-repeat -102px -432px;
+}
+
+.g-main-right a {
+    color: #262530;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 180px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.g-main-right .g-main-top {
+    display: inline-block;
+    width: 180px;
+    height: 119px;
+    margin-bottom: 1px;
+
+}
+
+.g-main-right a:hover {
+    color: darkred;
+}
+
+.g-main-right .g-main-top i {
+    background: url(../img/index.png) no-repeat -816px -529px;;
+}
+
+.g-main-right .g-main-bottom {
+    display: inline-block;
+    width: 180px;
+    height: 120px;
+
+}
+
+.g-main-right .g-main-bottom i {
+    background: url(../img/index.png) no-repeat -864px -529px;;
+}
+
+.g-main-right i {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -23px;
+    top: 24px;
+    opacity: 1;
+    /*border: 1px solid red;*/
+}

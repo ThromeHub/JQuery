@@ -1,0 +1,137 @@
+
+.w {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.main {
+    position: relative;
+}
+.main .main_logo {
+    display:inline-block;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.main .back {
+    width:310px;
+    height: 30px;
+    margin-top: 30px;
+    background:url("../images/backbtnbg_80b47a8.png");
+    float: right;
+}
+
+.main .back .back_in {
+    display:inline-block;
+    line-height: 30px;
+    padding-left:10px;
+    font-size: 14px;
+    color: #EADD69;
+    position: relative;
+}
+.main .back  .back_in i{
+    display: inline-block;
+    width: 1px;
+    height:14px;
+    background-color:#EADD69;
+    position:absolute;
+    right:-14px;
+    top: 8px;;
+}
+.main .back .share{
+    font-size: 12px;
+    color: #EADD69;
+    margin-left:30px;
+}
+.main .back .share i{
+    position: relative;
+    top:3px;
+    font-size: 22px;
+}
+.main .back .share i:hover{
+    color:#E5C065;
+}
+.main .relate{
+    position: absolute;
+    top:490px;
+    left:23px;
+    width: 510px;
+    height: 213px;
+    /*background-color:pink;*/
+}
+.main .relate h3{
+    color: #E5D092;
+    margin-left:211px;
+    margin-bottom:10px;
+}
+.main .relate p{
+    font-size: 14px;
+    line-height: 24px;
+    text-indent: 2em;
+    color:#838784;
+}
+.main .relate .guize {
+    display: inline-block;
+    width: 102px;
+    height: 26px;
+    background:url("../images/index_z_35ffa22.png") -218px 0;
+    float: right;
+    margin-right:15px;
+}
+.main .relate .guize:hover{
+    background:url("../images/index_z_35ffa22.png") -218px -26px;
+}
+.main .relate .relate_foot{
+    height: 70px;
+    width:510px;
+    margin-top: 35px;
+    border-top:1px dashed #404547;
+}
+.main .relate .relate_foot a{
+    display: inline-block;
+    margin-top: 10px;
+    width: 197px;
+    height: 40px;
+    background:url("../images/linkbtn2_930ad6e.jpg") no-repeat center;
+}
+.main .relate .relate_foot a:hover{
+    background:url("../images/linkbtn2h_0b168ae.jpg") no-repeat center;
+}
+.main .relate .relate_foot .data {
+     margin-left:75px;
+     background-image:url("../images/linkbtn3_7d2ca32.jpg");
+}
+.main .relate .relate_foot .data:hover {
+    background-image:url("../images/linkbtn3h_cec76ac.jpg");
+}
+
+/*二维码*/
+.main .erweima {
+    width: 200px;
+    height:356px;
+    position: fixed;
+    top: 245px;
+    right: 0;
+    z-index: 9;
+}
+.main .erweima .off{
+    position: absolute;
+    top: 0;
+    left: -26px;
+    cursor: pointer;
+}
+.main .erweima .imgs{
+    height:356px;
+    width: 200px;
+    background:url("../images/downloadwrap_8bf9ede.png") no-repeat right;
+}
+.main .erweima .ewm {
+    margin-left:17px;
+    margin-top:50px;
+}
+.main .erweima .anzhuo {
+    display: block;
+    width: 171px;
+    height: 51px;
+    margin-left:13px;
+    margin-top:15px;
+}

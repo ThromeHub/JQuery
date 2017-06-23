@@ -1,0 +1,163 @@
+
+.w {
+    width: 1180px;
+    margin: 0 auto;
+}
+.nav {
+    height: 55px;
+    background-color: #FBFBFB;
+}
+.nav_in {
+    height: 55px;
+    position: relative;
+}
+.nav_in .logo{
+    text-indent: -2000em;
+    margin-top: 3px;
+    margin-left:90px;
+    display: block;
+    width: 133px;
+    height: 44px;
+    background-image: url("../images/logo_b5525b7.png");
+    float: left;
+}
+.nav_in .guanggao {
+    display:inline-block;
+    width: 420px;
+    height: 55px;
+    float: left;
+    margin-left:5px;
+    position: relative;
+}
+
+.nav_in .guanggao .adChild {
+    display: block;
+    width: 420px;
+    height: 55px;
+}
+.nav .guanggao2{
+    width: 960px;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    display: none;
+    top:55px;
+    left:-136px;
+    background: url("../images/guanggao2.jpg") no-repeat;
+    z-index: 2;
+}
+#close {
+    width:30px;
+    height: 30px;
+    display: inline-block;
+    position:absolute;
+    right:13px;
+    top:13px;
+}
+.nav_in .sign {
+    display: inline-block;
+    width: 75px;
+    height: 53px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 55px;
+}
+.nav_in .sign:hover{
+    background-color:rgba(235,235,235,0.3);
+    border-bottom: 2px solid #ca0b0b;
+}
+
+.nav_in .downList {
+    width:130px;
+    height: 53px;
+    display: inline-block;
+    position: relative;
+}
+
+.nav_in .downList #list {
+    position: absolute;
+    top: 55px;
+    right: -113px;
+    display: none;
+    z-index: 2;
+}
+
+.nav_in .list_title{
+    text-align: center;
+    display: inline-block;
+    color: #ca0b0b;
+    width:130px;
+    height: 53px;
+    line-height: 55px;
+}
+.nav_in .list_title:hover{
+    background-color:rgba(235,235,235,0.3);
+    border-bottom: 2px solid #ca0b0b;
+}
+.nav_in .list_title i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 20px;
+    right:4px;
+    background:#fff url("../images/sprite-w_7fc7459.png") -99px -95px;
+}
+
+.nav_in .rightBar {
+    height: 55px;
+    width: 130px;
+    overflow: hidden;
+    float: right;
+    margin-right: 72px;
+    position: relative;
+}
+
+.nav_in .rightBar .rightbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav_in .rightBar span {
+    display: block;
+    width: 20px;
+    height: 15px;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.nav_in .rightbar li{
+    text-align: center;
+    line-height: 53px;
+    height: 53px;
+    background-color:rgba(235,235,235,0.3);
+    border-bottom: 2px solid #ca0b0b;
+}
+.nav_in .rightbar li a{
+    display: inline-block;
+    height: 53px;
+    width: 130px;
+}
+.nav_in .rightbar li a:hover{
+    background-color:rgba(235,235,235,0.3);
+    border-bottom: 2px solid #ca0b0b;
+}
+.nav .list {
+    margin: 0 auto;
+    width: 1000px;
+    height: 475px;
+    display: block;
+    position: absolute;
+    left:254px;
+    top:-475px;
+}
+.nav .list a{
+    width: 1000px;
+    height: 475px;
+    display: inline-block;
+    /*background-image: url("images/guanggao3.jpg");*/
+}

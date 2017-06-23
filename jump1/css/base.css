@@ -1,0 +1,46 @@
+
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd{
+     margin: 0;
+     padding: 0;
+     /*color:#666;*/
+     font-size: 12px;
+     list-style: none;
+
+ }
+ a{
+     text-decoration: none;
+     /*color:#666;*/
+ }
+ i,s{
+     text-decoration: none;
+     font-style: normal;
+ }
+ input ,img{
+     vertical-align: middle;
+     outline-style: none;
+     border:0 none;
+     margin:0;
+     padding:0;
+ }
+ .clearfloat:after{
+     content:"";
+     display: block;
+     height: 0;
+     line-height: 0;
+     clear:both;
+     visibility:hidden;
+ }
+ .clearfloat{
+     zoom: 1;
+ }
+ .fl{
+     float:left;
+ }
+ .fr{
+     float:right;
+ }
+ .bx{
+     width:1200px;
+     margin:0 auto;
+ }
+

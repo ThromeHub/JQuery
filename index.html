@@ -1,0 +1,1287 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="refresh" content="2">-->
+    <title>Answer</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/xiongBase.css">
+    <link rel="stylesheet" href="css/gou.css">
+    <link rel="stylesheet" href="css/chen.css">
+    <link rel="stylesheet" href="./css/font-css/iconfont.css"/>
+
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/dong.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script type="text/javascript" src="./bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/top.js"></script>
+    <script src="js/123.js"></script>
+</head>
+<!--模块隐藏样式-->
+<style>
+    .g-main, .stfy, .world, .recourse, .spec {
+        display: none;
+    }
+</style>
+<body>
+<!--顶部边栏-->
+<div class="top">
+    <div class="top-main">
+        <a href="javascript:;"><img src="img/logo.png" id="logo"></a>
+        <img src="img/topsamll.jpg">
+
+        <div class="top-ul">
+            <ul>
+                <a href="javascript:;">
+                    <li>注册账号</li>
+                </a>
+                <a href="javascript:;">
+                    <li>安卓充值</li>
+                </a>
+                <a href="javascript:;">
+                    <li style="color:#bf3838">网易游戏总目录
+                        <img src="img/span.png" id="topmenu">
+                    </li>
+                </a>
+                <a href="javascript:;">
+                    <li class="last">
+                        <p>安卓充值9.8折</p>
+
+                        <p>领取网易严选宝箱</p>
+
+                        <p>安卓充值9.8折</p>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="top-bottom"></div>
+        <div class="logobig"></div>
+    </div>
+</div>
+<script>
+    var topturn = setInterval(function () {
+        var topscroll = $(".top-ul li.last").scrollTop();
+        topscroll = (topscroll == 110) ? 0 : topscroll;
+        $(".top-ul li.last").scrollTop(topscroll);
+        $(".top-ul li.last").animate({scrollTop: topscroll + 55}, 500);
+    }, 4000)
+
+    //鼠标移入top出现卷轴
+    $(".top-main>img").mouseenter(function () {
+        $(".juan").fadeIn(400);
+        $(".juanmain").stop().animate({width: "1208px"}, 1000);
+        $(".juan img").eq(con).fadeIn(500);
+        $(".juan .arrow").stop().fadeIn(1000);
+    });
+
+    //点击卷抽消失效果
+    $("body").click(function () {
+        $(".juanmain img").stop().fadeOut(500);
+        $(".juan .arrow").stop().fadeOut(1000);
+        $(".juanmain").stop().animate({width: "42px"}, 1000, function () {
+            $(".juan").fadeOut(400);
+        });
+    })
+
+</script>
+<!--页面头部-->
+<div class="head">
+    <img src="img/images/hd_bg_0bab30f.jpg" class="headimg">
+    <img src="img/images/hd_txt_2_1a19e83.png" class="headlogo">
+    <span class="head-ex"></span>
+    <!--<object data="Recourse/stzb_bg.swf" type="application/x-shockwave-flash" width="100%" height="671"></object>-->
+    <div class="head-top clearfix">
+        <div class="headtop-left">
+            <div class="first">
+                <img src="img/images/1538fe3b17a74c84bcf308530199a4ef.gif">
+            </div>
+            <div class="second">
+                <img src="img/images/booklogo_9dd4569.png" width="120">
+
+                <p>网易全自由沙盘战略手游</p>
+                <input type="button" value="游戏介绍" class="head-game"/>
+                <!--苟文秀添加-->
+                <div class="introduce">
+                    <p style="font-size:13px">
+                        《率土之滨》是一款全自由实时沙盘战略手游。这个世界由225万格不同产出的土地构成，
+                        骑兵行军一周需要4天4夜。这个世界中，每一寸土地都可争夺，玩家们置身其间，发展内政，
+                        招募将领，结交盟友，从零开始打造势力范围。领土资源有限，争夺无处不在。利益决定战略，
+                        玩家们场上激烈对抗，场外合纵连横。是乱世永恒，还是天下一统？这是一场人与人创造的乱世风
+                        云史！
+                    </p>
+                    <span class="introduce-jiao"></span>
+                </div>
+                <!--苟文秀添加-->
+            </div>
+            <div class="headtop-nav">
+                <ul class="headtop-nav-ul">
+                    <a href="jump1/introduce.html">
+                        <li>
+                            <span class=" head-icon "></span>
+                            游戏介绍
+                        </li>
+                    </a>
+                    <a href="javascript:;">
+                        <li>
+                            <span class="head-icon"></span>
+                            新闻公告
+                        </li>
+                    </a>
+                    <a href="jump2/stzb.163.com/index1.html" target=_blank>
+                        <li>
+                            <span class="head-icon"></span>
+                            赛季详情
+                        </li>
+                    </a>
+                    <a href="javascript:;">
+                        <li>
+                            <span class="head-icon"></span>
+                            玩法特色
+                        </li>
+                    </a>
+                    <a href="javascript:;">
+                        <li>
+                            <span class="head-icon"></span>
+                            游戏资料
+                        </li>
+                    </a>
+                    <a href="javascript:;">
+                        <li>
+                            <span class="head-icon"></span>
+                            官方论坛
+                        </li>
+                    </a>
+                    <a href="javascript:;">
+                        <li class="guanzhu" style="border-right:0px none;width: 210px;">
+                            <span style="float:left" class="guanzhu-span">关注公众号赢大奖</span>
+                            <span class="first"></span>
+                            <span class="second"></span>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <span class="g-weixin reveal">
+                <img src="img/wx.png" alt=""/>
+            </span>
+            <span class="g-yixin reveal">
+                <img src="img/yx.png" alt=""/>
+            </span>
+        </div>
+    </div>
+    <div class="head-bottom">
+        <div class="headbottom-left">
+            <a href="javascript:;"><img src="img/图像%204.png"></a>
+            <span></span>
+
+            <p>扫一扫下载公测抢先版</p>
+            <h4>恭迎吾王开国，问鼎天下</h4>
+        </div>
+        <div class="headbottom-middle">
+            <a href="javascript:;"><span class="iphonedown"></span></a>
+            <a href="javascript:;"><span class="anroiddown"></span></a>
+        </div>
+        <div class="headbottom-right">
+            <div class="search">
+                <span></span>
+                <em>短信免费下载</em><br/>
+                <input type="text" class="sea" placeholder="输入手机：免费下载游戏">
+                <input type="button" class="btn" value="发送">
+            </div>
+            <span class="gift"></span>
+        </div>
+    </div>
+    <!--中间转盘-->
+    <div class="turn"></div>
+    <div class="sanjiao"></div>
+    <!--卷轴-->
+    <div class="juan">
+        <div class="juanmain">
+            <img src="img/nav1.png" class="juanimg01">
+            <img src="img/nav4.png" class="juanimg02">
+            <img src="img/nav3.png" class="juanimg03">
+        </div>
+        <div class="juanright"></div>
+        <div class="arrow">
+            <span class="leftarrow">
+                <a href="javascript:;"><img src="img/leftarrow.png"></a>
+            </span>
+            <span class="rightarrow">
+                <a href="javascript:;"><img src="img/rightarrow.png"></a>
+            </span>
+        </div>
+    </div>
+</div>
+<script>
+    //iphone图标悬停效果
+    $(".headbottom-middle a:first").mouseenter(function () {
+        $(this).find("span").css({backgroundPosition: "-1227px -424px"});
+    }).mouseleave(function () {
+        $(this).find("span").css({backgroundPosition: "-1454px -344px"});
+    });
+
+    //anroid图标悬停效果
+    $(".headbottom-middle a:last").mouseenter(function () {
+        $(this).find("span").css({backgroundPosition: "-1035px -424px"});
+    }).mouseleave(function () {
+        $(this).find("span").css({backgroundPosition: "-843px -424px"});
+    });
+
+    //gift图标悬停效果
+    $(".headbottom-right .gift").mouseenter(function () {
+        $(this).animate({top: "-8px", height: "102px"}, 500);
+    }).mouseleave(function () {
+        $(this).animate({top: "0px", height: "94px"}, 500);
+    })
+
+
+    //卷轴轮播效果
+    var con = 0;
+    $(".leftarrow").click(function (e) {
+        con--;
+        con = con < 0 ? 2 : con;
+        console.log(con);
+        $(".juanmain img").eq(con).fadeIn(500).siblings().fadeOut(500);
+        e.stopPropagation();
+    })
+
+    $(".rightarrow").click(function (e) {
+        con++;
+        con = con > 2 ? 0 : con;
+        console.log(con);
+        $(".juanmain img").eq(con).fadeIn(500).siblings().fadeOut(500);
+        e.stopPropagation();
+    })
+
+    //中心转盘效果
+    var intime = 0;
+    var Ti = setInterval(function () {
+        intime = (intime + 5) % 360;
+        $(".turn").css({transform: "rotate(" + intime + "deg)"});
+    }, 40)
+    $(".turn").mouseenter(function () {
+        clearInterval(Ti);
+    }).mouseleave(function () {
+        Ti = setInterval(function () {
+            intime = (intime + 5) % 360;
+            $(".turn").css({transform: "rotate(" + intime + "deg)"});
+        }, 40)
+    })
+</script>
+<!--主题部分-->
+<div class="bg">
+    <!--主题内容-->
+    <!--苟文秀制造-->
+    <div class="g-main">
+        <div class="g-main-left fl ">
+            <ul class="fl g-pic">
+                <li><a href="javascript:;"><img src="img/main-1.jpg" alt=""/></a></li>
+                <li><a href="javascript:;"><img src="img/main-2.jpg" alt=""/></a></li>
+                <li><a href="javascript:;"><img src="img/main-3.jpg" alt=""/></a></li>
+                <li><a href="javascript:;"><img src="img/main-4.jpg" alt=""/></a></li>
+            </ul>
+            <ul class="g-littleNav fl">
+                <li style="color:#D8BD7B">◆</li>
+                <li>◆</li>
+                <li>◆</li>
+                <li>◆</li>
+            </ul>
+        </div>
+        <div class="g-main-center fl">
+            <ul class="g-main-nav">
+                <li><a href="javascript:;" class="colorwhite">最新</a></li>
+                <li><a href="javascript:;">新闻</a></li>
+                <li><a href="javascript:;">公告</a></li>
+                <li><a href="javascript:;">攻略</a></li>
+                <li><a href="javascript:;">战报</a></li>
+            </ul>
+            <a href="javascript:;" class="g-last">+</a>
+
+            <div class="g-main-data">
+                <div class="g-main-inner">
+                    <ul>
+                        <li><a href="javascrip:;"><span>【新闻】</span>本军战至最后一人 《率土之滨》玩家故事站明日上线 <span
+                                class="g-item">06-15</span></a></li>
+                        <li><a href="javascrip:;"><span>【公告】</span>《率土之滨》6月14日例行更新预告 <span
+                                class="g-item">06-13</span></a></li>
+                        <li><a href="javascrip:;"><span>【公告】</span>《率土之滨》6月27日S2100新赛季服务器开启预告 <span
+                                class="g-item">06-13</span></a></li>
+                        <li><a href="javascrip:;"><span>【公告】</span>《率土之滨》6月7日例行更新预告 <span
+                                class="g-item">06-06</span></a></li>
+                        <li><a href="javascrip:;"><span>【三石精选】</span>将复杂的人生用一张纸打包 <span class="g-item">05-17</span></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="javascrip:;"><span>【新闻】</span>本军战至最后一人 《率土之滨》玩家故事站明日上线 <span
+                                class="g-item">06-15</span></a></li>
+                        <li><a href="javascrip:;"><span>【新闻】</span>宁输天下不负君，《率土之滨》战争不止是“赢” <span
+                                class="g-item">06-04</span></a></li>
+                        <li><a href="javascrip:;"><span>【新闻】</span>我的战争,不止是赢 《率土之滨》玩家站上线 <span
+                                class="g-item">06-01</span></a></li>
+                        <li><a href="javascrip:;"><span>【新闻】</span>旌旗在望,鼓角相闻 《率土之滨》兄弟并肩行 <span
+                                class="g-item">05-31</span></a></li>
+                        <li><a href="javascrip:;"><span>【新闻】</span>固城邦图天下 《率土之滨》沙盘战略2.0开启SLG新纪元 <span class="g-item">05-25</span></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="javascrip:;"><span>【公告】</span>《率土之滨》6月14日例行更新预告 <span
+                                class="g-item">06-13</span></a></li>
+                        <li><a href="javascrip:;"><span>【公告】</span>《率土之滨》6月27日S2100新赛季服务器开启预告 <span
+                                class="g-item">06-13</span></a></li>
+                        <li><a href="javascrip:;"><span>【公告】</span>《率土之滨》6月7日例行更新预告 <span
+                                class="g-item">06-06</span></a></li>
+                        <li><a href="javascrip:;"><span>【公告】</span>《率土之滨》6月20日S298新赛季服务器开启预告 <span
+                                class="g-item">06-06</span></a></li>
+                        <li><a href="javascrip:;"><span>【公告】</span>《率土之滨》5月31日例行更新预告 <span
+                                class="g-item">05-27</span></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="javascrip:;"><span>【战法】</span>明辨战法描述，率土术语全解析！ <span class="g-item">06-12</span></a>
+                        </li>
+                        <li><a href="javascrip:;"><span>【武将】</span>强力战法、稳定先手，S1五星汉骑评测 <span class="g-item">06-09</span></a>
+                        </li>
+                        <li><a href="javascrip:;"><span>【战法】</span>【楚歌四起】全解析，教你提高输出率！ <span class="g-item">06-08</span></a>
+                        </li>
+                        <li><a href="javascrip:;"><span>【战法】</span>增防减伤保输出，新版【鱼鳞】用法解读 <span class="g-item">06-07</span></a>
+                        </li>
+                        <li><a href="javascrip:;"><span>【战法】</span>巧用战法与搭配，群吕如何扬长避短？ <span
+                                class="g-item">06-05</span></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="javascrip:;"><span>【战报】</span> 【野心】《在这个年纪，比起梦想我更愿意取悦野心》故事 <span class="g-item">06-14</span></a>
+                        </li>
+                        <li><a href="javascrip:;"><span>【战报】</span> 【血性】身后即是故土,吾辈无路可退,本军战至最后一兵一卒!” <span class="g-item">06-14</span></a>
+                        </li>
+                        <li><a href="javascrip:;"><span>【战报】</span> 【同盟】607支军队驻守一格，生死相契，金石不渝 <span
+                                class="g-item">06-14</span></a></li>
+                        <li><a href="javascrip:;"><span>【战报】</span> 【死战】最难过的不是死战，而是没有战死 <span
+                                class="g-item">06-14</span></a></li>
+                        <li><a href="javascrip:;"><span>【战报】</span> 【共死】《2000格，3个中转，一日一夜，我来救你》 <span class="g-item">06-14</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="g-main-right fl">
+            <a href="javascript:;" class="g-main-top">
+                <i></i>
+                大数据
+            </a>
+            <a href="javascript:;" class="g-main-bottom">
+                <i></i>
+                最新活动
+            </a>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            //轮播图
+            $(".g-littleNav li").click(function () {
+                $(".g-main-left .g-pic").stop().animate({left: -580 * $(this).index()}, 200);
+                $(this).css("color", "#D8BD7B").siblings().css("color", "#fff");
+            })
+
+            $(".g-pic li").click(function () {
+                var piccon = ($(this).index() + 1) > 3 ? 0 : ($(this).index() + 1);
+                $(".g-main-left .g-pic").stop().animate({left: -580 * piccon}, 200);
+                $(".g-littleNav li").eq(piccon).css("color", "#D8BD7B").siblings().css("color", "#fff");
+            })
+
+            //中间部分
+            $(".g-main-nav li").on("click", function () {
+                //字体变色
+                $(this).find("a").css({color: "#fff", borderBottom: "1px solid #ffffff"})
+                $(this).siblings().find("a").css({
+                    color: "#98989a",
+                    borderBottom: 0
+                });
+
+                //上下联动
+                $(".g-main-inner").stop().animate({left: -$(this).index() * 370}, 200)
+
+            });
+
+
+            //右边部分
+            $(function () {
+                $(".g-main-right a").on("mouseenter", function () {
+                    $(this).stop().animate({top: -20}, 500);
+                    $(this).children("i").stop().animate({top: -60, opacity: 0}, 300)
+                });
+                $(".g-main-right a").on("mouseout", function () {
+                    $(this).stop().animate({top: 0}, 500);
+                    $(this).children("i").stop().animate({top: 24, opacity: 1}, 300)
+                });
+
+                $(".g-main-right i").on("mouseenter", function () {
+                    $(this).parent().stop().animate({top: -20}, 500);
+                    $(this).stop().animate({top: -60, opacity: 0}, 300)
+                });
+                $(".g-main-right i").on("mouseout", function () {
+                    $(this).parent().stop().animate({top: 0}, 500);
+                    $(this).stop().animate({top: 24, opacity: 1}, 300)
+                });
+            })
+        })
+    </script>
+    <!--率土风云模块-->
+    <div class="stfy">
+        <div class="bx">
+            <!--风云模块-->
+            <div class="fy fengyun">
+                <h3 class="fytitle">
+                    <span class="st">率土风云</span>
+                </h3>
+
+                <div class="tu">
+                    <img src="images/0152a826-7c8d-4b41-b884-f1fe509dfe7e.jpg" width=251 height=141 alt="">
+                    <img src="images/6933d6a5-024c-43f4-a3ef-d8de927cad59.jpg" width=251 height=141
+                         style="position:relative;left:15px">
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="javascript:;">
+                            《率土风云》第八十三期：天下三分，龙争虎斗，山雨欲来战满州
+                            <span class="date">06-14</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            《率土风云》第八十二期：攻幽进并势如破竹，入驻凉州天下归心！
+                            <span class="date">06-07</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            《率土风云》第八十一期：400区血雨腥风，群雄并起谁主沉浮？
+                            <span class="date">06-01</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            《率土风云》第八十期：东西势力角逐司隶，幽州战场风云再起！
+                            <span class="date">05-24</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <a href="javascript:;" class="abtn">+</a>
+            </div>
+            <!--战报模块-->
+            <div class="fy zhanbao">
+                <h3 class="fytitle">
+                    <span class="st">天下战报</span>
+                </h3>
+
+                <div class="tu">
+                    <div class="tu3">
+                        <img src="images/69e1c31c-0474-441a-b076-d7add3438f82.jpg" width=200 height=141 alt="">
+                        <a href="javascript:;" class="tu4"></a>
+                    </div>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="javascript:;">
+                            【野心】《在这个年纪，比起梦想我更愿意取悦野心》故事
+                            <span class="date">06-14</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            【血性】身后即是故土,吾辈无路可退,本军战至最后一兵一卒!”
+                            <span class="date">06-14</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            【同盟】607支军队驻守一格，生死相契，金石不渝
+                            <span class="date">06-14</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            【死战】最难过的不是死战，而是没有战死
+                            <span class="date">06-14</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <a href="javascript:;" class="abtn">+</a>
+            </div>
+            <!--新手指引模块-->
+            <div class="newplayer">
+                <div class="zong">
+                    <div class="guide guide2">
+                        ◆ 新手指引 ◆
+                        <span>轻松5步 快速上手游戏</span>
+                    </div>
+                </div>
+
+                <a href="javascript:;">
+                    <i>1</i>
+                    新手必知
+                </a>
+                <a href="javascript:;">
+                    <i>2</i>
+                    战法初解
+                </a>
+                <a href="javascript:;">
+                    <i>3</i>
+                    玩家势力
+                </a>
+                <a href="javascript:;">
+                    <i>4</i>
+                    地图玩法
+                </a>
+                <a href="javascript:;">
+                    <i>5</i>
+                    武将介绍
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $(".newplayer a").on("mouseenter", function () {
+                $(this).find("i").addClass("imgrotateY")
+            });
+            $(".newplayer a").on("mouseleave", function () {
+                $(this).find("i").removeClass("imgrotateY")
+            })
+
+            $(".zong").on("mouseleave", function () {
+                // $(".zong .guide1").stop().animate({"opacity": 0}, 1000, function () {
+                //     $(".zong .guide2").stop().animate({"opacity": 1},1000);
+                // });
+                $(".zong .guide1").stop().fadeOut(1000);
+                $(".zong .guide2").stop().fadeIn(1000);
+            });
+        });
+    </script>
+    <!--征战天下 开始-->
+    <div class="world w0">
+        <h3>征战天下</h3>
+        <span class="little-span"></span>
+        <div class="world-line"></div>
+
+        <div class="world-content" id="world-content">
+            <div class="ulAll">
+                <ul class="world-ul01">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/004.jpg" alt="">
+                            <h4>妇愁者同盟吹响征服号角</h4>
+                            <p>全新征服赛季即将在X001、X002大区率先开启，来自23区永恒同盟的玩家早已对新赛季望眼欲穿，更是以“妇愁者”自诩，以期在全新的征服赛季中一展宏图。</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/005.jpg" alt="">
+                            <h4>洛阳究竟惹了谁</h4>
+                            <p>前有玩家扬言洛阳算什么，要建九九八十一城碾压洛阳；后有玩家宣称三个好基友合力建了一个比洛阳更为宏大的建筑。洛阳究竟惹了谁？种田党竟使出洪荒之力。</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/006.jpg" alt="">
+                            <h4>S305战盟战备视频热血来袭</h4>
+                            <p>为了纪念日夜陪伴在身边的兄弟以及帮忙周转的盟友，感谢盟友的帮助，感谢兄弟们的坚持。在这里我们找到了很多朋友，战无止境，战，同战！</p>
+                        </a>
+                    </li>
+                    <li class="world-04">
+                        <a href="javascript:;">
+                            <img src="images/007.jpg" alt="">
+                            <h5>征集令</h5>
+                            <p>率土周年庆，玩家故事征集</p>
+                            <div class="callname"></div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="world-ul01">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/001.jpg" alt="">
+                            <h4>妇愁者同盟吹响征服号角</h4>
+                            <p>全新征服赛季即将在X001、X002大区率先开启，来自23区永恒同盟的玩家早已对新赛季望眼欲穿，更是以“妇愁者”自诩，以期在全新的征服赛季中一展宏图。</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/002.jpg" alt="">
+                            <h4>洛阳究竟惹了谁</h4>
+                            <p>前有玩家扬言洛阳算什么，要建九九八十一城碾压洛阳；后有玩家宣称三个好基友合力建了一个比洛阳更为宏大的建筑。洛阳究竟惹了谁？种田党竟使出洪荒之力。</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/003.jpg" alt="">
+                            <h4>S305战盟战备视频热血来袭</h4>
+                            <p>为了纪念日夜陪伴在身边的兄弟以及帮忙周转的盟友，感谢盟友的帮助，感谢兄弟们的坚持。在这里我们找到了很多朋友，战无止境，战，同战！</p>
+                        </a>
+                    </li>
+                    <li class="world-04">
+                        <a href="javascript:;">
+                            <img src="images/007.jpg" alt="">
+                            <h5>征集令</h5>
+                            <p>率土周年庆，玩家故事征集</p>
+                            <div class="callname"></div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="world-ul01">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/008.jpg" alt="">
+                            <h4>妇愁者同盟吹响征服号角</h4>
+                            <p>全新征服赛季即将在X001、X002大区率先开启，来自23区永恒同盟的玩家早已对新赛季望眼欲穿，更是以“妇愁者”自诩，以期在全新的征服赛季中一展宏图。</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/009.jpg" alt="">
+                            <h4>洛阳究竟惹了谁</h4>
+                            <p>前有玩家扬言洛阳算什么，要建九九八十一城碾压洛阳；后有玩家宣称三个好基友合力建了一个比洛阳更为宏大的建筑。洛阳究竟惹了谁？种田党竟使出洪荒之力。</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/001.jpg" alt="">
+                            <h4>S305战盟战备视频热血来袭</h4>
+                            <p>为了纪念日夜陪伴在身边的兄弟以及帮忙周转的盟友，感谢盟友的帮助，感谢兄弟们的坚持。在这里我们找到了很多朋友，战无止境，战，同战！</p>
+                        </a>
+                    </li>
+                    <li class="world-04">
+                        <a href="javascript:;">
+                            <img src="images/007.jpg" alt="">
+                            <h5>征集令</h5>
+                            <p>率土周年庆，玩家故事征集</p>
+                            <div class="callname"></div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="world-ul01">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/004.jpg" alt="">
+                            <h4>妇愁者同盟吹响征服号角</h4>
+                            <p>全新征服赛季即将在X001、X002大区率先开启，来自23区永恒同盟的玩家早已对新赛季望眼欲穿，更是以“妇愁者”自诩，以期在全新的征服赛季中一展宏图。</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/005.jpg" alt="">
+                            <h4>洛阳究竟惹了谁</h4>
+                            <p>前有玩家扬言洛阳算什么，要建九九八十一城碾压洛阳；后有玩家宣称三个好基友合力建了一个比洛阳更为宏大的建筑。洛阳究竟惹了谁？种田党竟使出洪荒之力。</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/006.jpg" alt="">
+                            <h4>S305战盟战备视频热血来袭</h4>
+                            <p>为了纪念日夜陪伴在身边的兄弟以及帮忙周转的盟友，感谢盟友的帮助，感谢兄弟们的坚持。在这里我们找到了很多朋友，战无止境，战，同战！</p>
+                        </a>
+                    </li>
+                    <li class="world-04">
+                        <a href="javascript:;">
+                            <img src="images/007.jpg" alt="">
+                            <h5>征集令</h5>
+                            <p>率土周年庆，玩家故事征集</p>
+                            <div class="callname"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--放一个假按钮-->
+            <span class="worldSpan" id="worldSpan"></span>
+        </div>
+
+        <ul class="world-ul02">
+            <li class="current"></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+    <script>
+        //征战天下
+        $(".world-ul01 li").mouseenter(function () {
+            $(this).stop().animate({top: -10})
+                    .css("backgroundColor", "#E8E8EA");
+        }).mouseleave(function () {
+            $(this).stop().animate({top: 0})
+                    .css("backgroundColor", "#3A3E45");
+        })
+
+        $(".world-ul02 li").click(function () {
+            var ind = $(this).index();
+            var len = $(".world-ul01").width();
+            $(this).addClass("current").siblings().removeClass("current");
+            $(".ulAll").stop().animate({left: -len * ind});
+            imga = $(this).index;
+        })
+        //假按钮点击事件
+        var imga = 0;
+        $(".worldSpan").click(function () {
+            var wid = $(".world-ul01").width();//一个UL的宽度
+            if (imga == 3) {
+                $(".ulAll").css("left", "0");
+                imga = 0;
+            }
+            $(".world-ul02 li").eq(imga).removeClass("current");
+
+            imga++;
+            $(".ulAll").stop().animate({left: -wid * imga})
+
+            if (imga == 3) {
+                $(".world-ul02 li").eq(0).addClass("current");
+            } else {
+                $(".world-ul02 li").eq(imga).addClass("current");
+            }
+        })
+    </script>
+    <!--游戏资料-->
+    <div class="recourse">
+        <h3>游戏资料</h3>
+
+        <div class="recourse-main">
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <div class="fork">
+                            <img src="img/datum_01.jpg">
+                            <img src="img/datum_01_h.jpg" class="real">
+                            <span class="respan01"></span>
+                        </div>
+                        <div class="retext">
+                            <h3><i>最新推荐</i></h3>
+
+                            <div class="retextul">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <em>【战法】</em>
+                                            <h4>【楚歌四起】全解析，教你提高输出率！</h4>
+                                            <i>06-08</i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <em>【战法】</em>
+                                            <h4>增防减伤保输出，新版【鱼鳞】用法解读</h4>
+                                            <i>06-07</i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <em>【战法】</em>
+                                            <h4>巧用战法与搭配，群吕如何扬长避短？</h4>
+                                            <i>06-05</i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <em>【战法】</em>
+                                            <h4>强力菜刀、法系核心，魏骑武将深度评析</h4>
+                                            <i>06-02</i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <em>【战法】</em>
+                                            <h4>跳出阵营思维，混搭贾诩有奇效</h4>
+                                            <i>06-01</i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="retextimg">
+                                <img src="img/re01.png" class="first">
+                                <img src="img/re02.png" class="second">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="fork">
+                            <img src="img/datum_02.jpg">
+                            <img src="img/datum_02_h.jpg" class="real">
+                            <span class="respan02"></span>
+                        </div>
+                        <div class="retext">
+                            <h3><i>武将心得</i></h3>
+
+                            <div class="retextul">
+                                <ul>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【武将】</em>
+                                            <h4>强力战法、稳定先手，S1五星汉骑评测</h4>
+                                            <i>06-09</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【武将】</em>
+                                            <h4>强力菜刀、法系核心，魏骑武将深度评析</h4>
+                                            <i>06-02</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【武将】</em>
+                                            <h4>黑科技再登场？肉步搭配新思路！</h4>
+                                            <i>06-01</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【武将】</em>
+                                            <h4>S1五星武将评测，群步属性分析与搭配</h4>
+                                            <i>05-25</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【武将】</em>
+                                            <h4>强力拆迁队登场，S1五星吴步评测</h4>
+                                            <i>05-27</i>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="retextimg">
+                                <img src="img/re03.png" class="first">
+                                <img src="img/re04.png" class="second">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="fork">
+                            <img src="img/datum_03.jpg">
+                            <img src="img/datum_03_h.jpg" class="real">
+                            <span class="respan03"></span>
+                        </div>
+                        <div class="retext">
+                            <h3><i>战法详解</i></h3>
+
+                            <div class="retextul">
+                                <ul>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>【楚歌四起】全解析，教你提高输出率！</h4>
+                                            <i>06-08</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>增防减伤保输出，新版【鱼鳞】用法解读</h4>
+                                            <i>06-07</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>巧用战法与搭配，群吕如何扬长避短？</h4>
+                                            <i>06-05</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>强力菜刀、法系核心，魏骑武将深度评析</h4>
+                                            <i>06-02</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>跳出阵营思维，混搭贾诩有奇效</h4>
+                                            <i>06-01</i>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="retextimg">
+                                <img src="img/re05.png" class="first">
+                                <img src="img/re06.png" class="second">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="fork">
+                            <img src="img/datum_04.jpg">
+                            <img src="img/datum_04_h.jpg" class="real">
+                            <span class="respan04"></span>
+                        </div>
+                        <div class="retext">
+                            <h3><i>打野技巧</i></h3>
+
+                            <div class="retextul">
+                                <ul>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>【楚歌四起】全解析，教你提高输出率！</h4>
+                                            <i>06-08</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>增防减伤保输出，新版【鱼鳞】用法解读</h4>
+                                            <i>06-07</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>巧用战法与搭配，群吕如何扬长避短？</h4>
+                                            <i>06-05</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>强力菜刀、法系核心，魏骑武将深度评析</h4>
+                                            <i>06-02</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>跳出阵营思维，混搭贾诩有奇效</h4>
+                                            <i>06-01</i>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="retextimg">
+                                <img src="img/re07.png" class="first">
+                                <img src="img/re08.png" class="second">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="fork">
+                            <img src="img/datum_05.jpg">
+                            <img src="img/datum_05_h.jpg" class="real">
+                            <span class="respan05"></span>
+                        </div>
+                        <div class="retext">
+                            <h3><i>攻城略地</i></h3>
+
+                            <div class="retextul">
+                                <ul>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>【楚歌四起】全解析，教你提高输出率！</h4>
+                                            <i>06-08</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>增防减伤保输出，新版【鱼鳞】用法解读</h4>
+                                            <i>06-07</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>巧用战法与搭配，群吕如何扬长避短？</h4>
+                                            <i>06-05</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>强力菜刀、法系核心，魏骑武将深度评析</h4>
+                                            <i>06-02</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>跳出阵营思维，混搭贾诩有奇效</h4>
+                                            <i>06-01</i>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="retextimg">
+                                <img src="img/re09.png" class="first">
+                                <img src="img/re10.png" class="second">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="fork">
+                            <img src="img/datum_06.png">
+                            <img src="img/datum_06_h.png" class="real">
+                            <span class="respan06"></span>
+                        </div>
+                        <div class="retext">
+                            <h3><i>设施建造</i></h3>
+
+                            <div class="retextul">
+                                <ul>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>【楚歌四起】全解析，教你提高输出率！</h4>
+                                            <i>06-08</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>增防减伤保输出，新版【鱼鳞】用法解读</h4>
+                                            <i>06-07</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>巧用战法与搭配，群吕如何扬长避短？</h4>
+                                            <i>06-05</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>强力菜刀、法系核心，魏骑武将深度评析</h4>
+                                            <i>06-02</i>
+                                        </li>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <li>
+                                            <em>【战法】</em>
+                                            <h4>跳出阵营思维，混搭贾诩有奇效</h4>
+                                            <i>06-01</i>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="retextimg">
+                                <img src="img/re11.png" class="first">
+                                <img src="img/re12.png" class="second">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <script>
+        $(".recourse-main>ul>li").on({
+            mouseover: function () {
+                //左侧图片点亮
+                $(this).find("img.real").stop().fadeIn(200);
+                $(this).siblings().find("img.real").stop().fadeOut(200);
+                //小图标添加旋转类
+                $(this).find("span").addClass("imgrotateY");
+            }, mouseleave: function () {
+                //小图标删除旋转类
+                $(this).parent().find("span").removeClass("imgrotateY");
+            }, click: function () {
+                //list展开操作
+                $(this).animate({width: "680px"}, 300);
+                $(this).siblings().animate({width: "100px"}, 300);
+            }
+        })
+    </script>
+    <!--游戏特色-->
+    <div class="spec">
+        <h3>游戏特色</h3>
+
+        <div class="spec-main">
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <span class="specspan01"></span>
+                        <img src="img/fea_01.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span class="specspan02"></span>
+                        <img src="img/fea_02.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span class="specspan03"></span>
+                        <img src="img/fea_03.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span class="specspan04"></span>
+                        <img src="img/fea_04.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        $(".spec-main>ul>li").bind("mouseenter", function () {
+            $(this).find("span").stop().fadeIn(500);
+            $(this).siblings().find("span").stop().fadeOut(500);
+        }).bind("click", function () {
+            $(this).animate({width: "880px"}, 400).siblings().stop().animate({width: "100px"}, 400);
+        })
+    </script>
+
+    <!--页面底部-->
+    <div class="footer">
+        <!--苟文秀添加-->
+        <div class="g-footer-top ">
+            <div class="g-top-left fl">
+                <img class="fl" src="img/codemark.jpg" alt="" width="80px">
+                <p class="fl commous">率土之滨<br>
+				<span class="colorWhite">
+				微信
+				</span>公众号：stzb163 <br>
+                    <b></b>扫描立即关注
+                </p>
+            </div>
+            <p class="fl g-top-center">分享到：
+                <a href="javascript:;" title="分享到微信">
+                    <i class="iconfont">&#x3434;</i>
+                    微信
+                </a>
+                <a href="javascript:;" title="分享到易信">
+                    <i class="iconfont">&#xe604;</i>
+                    易信
+                </a>
+                <a href="javascript:;" title="分享到微博">
+                    <i class="iconfont">&#xe668;</i>
+                    新浪微博
+                </a>
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe623;</i>
+                    更多
+                </a>
+            </p>
+            <div class="g-top-right fr commous">
+                <img class="fl" src="img/download.jpg" alt="" width="80px">
+                <p class="fl commous">率土之滨<br>
+                    <span class="colorWhite">易信</span>公众号：stzb163 <br>
+                    <b></b>扫描立即关注
+                </p>
+            </div>
+        </div>
+
+
+        <!--苟文秀添加-->
+        <div class="dibu">
+            <div class="footerTop">
+        <span class="topLeft">
+              <a href="javascript:;"><img src="images/netease.2.png" alt=""></a>
+              <a href="javascript:;"><img src="images/nie.2.png" alt="" class="ditu"></a>
+        </span>
+
+        <span class="topRight">
+            <i class="jianjie">
+                <a href="javascript:;">公司简介</a> -
+                <a href="javascript:;">客户服务</a> -
+                <a href="javascript:;">相关法律</a> -
+                <a href="javascript:;">网易游戏</a> -
+                <a href="javascript:;">联系我们</a> -
+                <a href="javascript:;">商务合作</a> -
+                <a href="javascript:;">加入我们</a> -
+                <a href="javascript:;">用户协议</a>
+            </i>
+
+            <i class="banquan">网易公司版权所有 ©1997-2017
+                <a href="javascript:;" class="clicKSee">点击查看家长监护工程 ></a></i>
+        </span>
+
+
+            </div>
+
+            <div class="footerBottom">
+                <p>本游戏适合16岁以上的玩家进入。</p>
+
+                <p>积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。</p>
+
+                <P><i>《网络游戏管理暂行办法》</i> 文网游备字[2015]M-SLG0920号 《网络文化经营许可证》 浙网文[2016]0155-055号</P>
+            </div>
+        </div>
+    </div>
+
+    <!--边栏部分-->
+    <div class="aside">
+        <div class="aside-left">
+            <span></span>
+
+            <p></p>
+        </div>
+        <div class="aside-right">
+            <span></span>
+
+            <p></p>
+        </div>
+    </div>
+    <script>
+        //边栏滚动效果
+        $(window).scroll(function () {
+            if ($("body").scrollTop() >= 725) {
+                var iny = $("body").scrollTop() + 80;
+                $(".aside-left").stop().animate({top: iny}, 1000);
+                $(".aside-right").stop().animate({top: iny}, 1000);
+            }
+            else {
+                $(".aside-left").stop().animate({top: 800}, 1000);
+                $(".aside-right").stop().animate({top: 800}, 1000);
+            }
+        })
+
+        //右侧边栏消失
+        $(".aside-left p").click(function () {
+            $(this).parent().fadeOut(400);
+        })
+        //左侧边栏消失
+        $(".aside-right p").click(function () {
+            $(this).parent().fadeOut(400);
+        })
+    </script>
+
+</div>
+</body>
+</html>
+<!--模块显示效果-->
+<script>
+    //显现效果
+    $(window).scroll(function () {
+        if ($("body").scrollTop() >= 225) {
+            $(".g-main").stop().fadeIn(300);
+        }
+        if ($("body").scrollTop() >= 225) {
+            $(".stfy").stop().fadeIn(300);
+        }
+        if ($("body").scrollTop() >= 825) {
+            $(".world").stop().fadeIn(300);
+        }
+        if ($("body").scrollTop() >= 1250) {
+            $(".recourse").stop().fadeIn(300);
+        }
+        if ($("body").scrollTop() >= 1555) {
+            $(".spec").stop().fadeIn(300);
+        }
+    })
+</script>

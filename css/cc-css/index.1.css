@@ -1,0 +1,168 @@
+.stfy{
+    background-color: #000;
+    margin-top: 20px;
+    height: 360px;
+}
+.fy{
+    float: left;
+    display:inline-block;
+    background: #3c3b46;
+    position: relative;
+}
+.stfy .fengyun{
+    width: 520px;
+    margin-right: 20px;
+    height: 360px;
+    padding: 0 30px;
+}
+.stfy .zhanbao{
+    width: 344px;
+    height: 360px;
+    padding: 0 18px;
+}
+.stfy .fytitle{
+    line-height: 42px;
+    margin-bottom: 15px;
+    padding-top: 7px;
+    border-color: #504f59;
+    height: 42px;
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: solid #666 1px;
+}
+.stfy .fy .st{
+    display: inline-block;
+    line-height: 43px;
+    height: 43px;
+    position: relative;
+    margin-top: -1px;
+    border-bottom: solid #e0e0e0 1px;
+    font-size: 18px;
+}
+.stfy .fy .tu{
+    font-size: 0;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: -17px;
+    zoom: 1;
+}
+.stfy  .tu img{
+    margin-left: 16px;
+}
+.stfy .fy .list li{
+    position: relative;
+}
+.stfy .fy .list li a{
+    font-size: 14px;
+    color: #98989a;
+    display: block;
+    line-height: 34px;
+    height: 34px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 45px;
+}
+.stfy .fy .list li a .date{
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 3px;
+}
+.stfy .fy .list li a:hover{
+    color: #fff;
+}
+.stfy .fy .tu4 {
+    width: 135px;
+    height: 141px;
+    font-size: 0;
+    position: relative;
+    float: right;
+    display: inline;
+    background: url(../images/tougao.jpg) 0 0 no-repeat;
+}
+.stfy .fengyun .abtn{
+    top: 20px;
+    right: 30px;
+}
+.stfy .zhanbao .abtn{
+    top: 20px;
+    right: 20px;
+}
+.stfy .fy .abtn{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border: solid 1px #98989e;
+    color: #98989e;
+    font-size: 18px;
+    text-align: center;
+    line-height: 11px;
+}
+.stfy .fy .abtn:hover{
+    background-color: #e2e2e3;
+}
+/*新手指引模块*/
+.stfy .newplayer{
+    float: left;
+    width: 180px;
+    height: 360px;
+    margin-left: 20px;
+    background:url("../images/index_1_z_27f1a9e.png") -232px 0px no-repeat;
+}
+.stfy .newplayer .zong{
+    width: 180px;
+    height: 91px;
+    overflow: hidden;
+    position: relative;
+}
+.stfy .newplayer .guide{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #262530;
+    line-height: 32px;
+    padding: 15px 0 10px;
+    margin-bottom: 5px;
+    position: absolute;
+    left: 20px;
+}
+.stfy .newplayer .guide span{
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+}
+.stfy .newplayer .guide1{
+display: none;
+    position: absolute;
+    top: 0px;
+    left: 17px;
+}
+.stfy .newplayer .guide2{
+
+    position: absolute;
+}
+.stfy .newplayer a{
+    line-height: 50px;
+    vertical-align: middle;
+    color: #262530;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+.stfy .newplayer a i{
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 14px;
+    line-height: 14px;
+    padding: 4px 0;
+    margin-right: 8px;
+    font-size: 12px;
+    background:url("../images/index_1_z_27f1a9e.png")-1774px -345px no-repeat;
+}
+.stfy .newplayer a:hover{
+  text-decoration:underline;
+}
